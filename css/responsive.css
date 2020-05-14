@@ -1,0 +1,225 @@
+/* Large desktop :992px. */
+@media (min-width: 1920px) and (max-width: 2000px) {
+	
+}
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1169px) {
+.header-text {
+	margin-top: 149px;
+}
+.header-text h1 {
+	font-size: 29px;
+}
+.about-text h2 {
+	font-size: 24px;
+	padding-top: 30px;
+	padding-bottom: 8px;
+}
+.about-text p {
+	font-size: 12px;
+	padding-bottom: 23px;
+	text-align: justify;
+}
+.p-height {
+	padding-bottom: 0;
+	font-size: 12px;
+}
+.about-text a {
+	padding-bottom: 14px;
+	padding-top: 12px;
+	padding-left: 17px;
+	padding-right: 20px;
+	font-size: 12px;
+}
+.single-skill {
+	margin-left: 17px;
+}
+.project-image-text {
+	padding-top: 25%;
+}
+.project-image-text h4 {
+	font-size: 16px;
+	padding-bottom: 6px;
+}
+.project-image-text p {
+	font-size: 12px;
+	padding-left: 16px;
+}
+.team-icon {
+	height: 68%;
+}
+.contact-form input {
+	width: 47%;
+}
+.footer-brand p {
+	text-align: justify;
+}
+.single-footer p::before {
+	width: 211px;
+}
+.footer-address li {
+	font-size: 12px;
+}
+.footer-address p {
+	letter-spacing: 0px;
+	text-align: justify;
+}
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+.container {width:300px}
+.logo, .menu {
+	margin-top: 0;
+}
+.logo a h2 {
+	font-size: 27px;
+	line-height: 15px;
+}
+.header-area {
+	height: 368px;
+}
+.header-text {
+	margin-top: 154px;
+}
+.header-text p {
+	font-size: 16px;
+}
+.header-text h1 {
+	font-size: 20px;
+	margin-bottom: 48px;
+	line-height: 32px;
+}
+.header-text a {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.section-title.text-center h2 {
+	font-size: 18px;
+}
+.section-title.text-center h2::before {
+	left: 35%;
+	bottom: -18px;
+}
+#section-text p {
+	font-size: 14px;
+}
+.about-text h2 {
+	font-size: 18px;
+}
+.p-height {
+	font-size: 13px;
+}
+.about-text p {
+	font-size: 12px;
+	padding-right: 38px;
+	text-align: justify;
+}
+.about-text a {
+	padding-bottom: 14px;
+	padding-top: 12px;
+	padding-left: 17px;
+	padding-right: 20px;
+	font-size: 14px;
+}
+.about-image img {
+	width: 319px;
+	margin-top: 33px;
+}
+.service-title h2 {
+	font-size: 18px;
+}
+.service-title p {
+	font-size: 13px;
+	text-align: justify;
+}
+.service-single i {
+	font-size: 24px;
+}
+.service-single h3 {
+	font-size: 16px;
+}
+.service-single p {
+	font-size: 12px;
+}
+.contact-title h2 {
+	font-size: 22px;
+}
+.contact-form input {
+	width: 46%;
+	font-size: 12px;
+}
+.contact-form .submit {
+	width: 110px;
+	height: 40px;
+}
+.brand-text {
+	padding-bottom: 0px;
+}
+.footer-brand h2 {
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+.footer-brand p {
+	font-size: 12px;
+	text-align: justify;
+}
+.single-footer {
+	padding-top: 30px;
+}
+.single-footer h3 {
+	font-size: 18px;
+	padding-bottom: 4px;
+}
+.single-footer h6 {
+	font-size: 10px;
+	padding-top: 10px;
+}
+.single-footer p {
+	padding-bottom: 5px;
+}
+.single-footer p::before {
+	width: 212px;
+}
+.footer-address {
+	padding-top: 30px;
+}
+.footer-address h3 {
+	font-size: 18px;
+}
+.footer-address p {
+	font-size: 12px;
+	text-align: justify;
+	padding-bottom: 15px;
+}
+.footer-address li {
+	font-size: 12px;
+}
+
+.footer-text.text-center p {
+	font-size: 12px;
+}
+.weblift {
+	height: 30px;
+	line-height: 30px;
+	width: 31px;
+	right: 4px;
+}
+}
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+
+}
+ 

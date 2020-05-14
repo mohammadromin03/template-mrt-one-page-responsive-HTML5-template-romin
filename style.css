@@ -1,0 +1,784 @@
+/*=====================================================
+	Template Name : MRT One Page Responsive HTML 5 Template;
+	Author Name   : Mukti Romin Tarin;
+	Author URL    : https://romincomputer.blogspot.com/
+	Description   : This is a one page html5 template for MRT Template
+	Version       : 1;
+=======================================================*/
+
+/* ======= CSS Document ========= */
+
+/************ TABLE OF CONTENTS ***************
+01. Fonts
+02. Included css Files
+03. General css
+04. Header Area css
+05. About  Area css
+06. Service Area css
+07. Skill Area css 
+08. Project Area css 
+09. Team Area css 
+10. Client Area css 
+11. Blog Area css
+12. Contact Area css 
+13. Footer Area css
+14. Copyright Area css
+15. jquery css
+
+**************************************/
+
+/* ================= 01.Fonts ================ */
+
+
+/* ================
+	03.General css
+=================== */
+a, a:hover{
+	text-decoration:none;
+}
+a{
+	transition:.3s;
+}
+ul, li{
+	list-style:none;
+}
+html, body{
+	height:100%;
+}
+body{
+	overflow-x:hidden;
+}
+.f-color{
+	color:#7b6c63;
+}
+/*=========================
+   04.Header area css
+==========================*/
+.header-area{
+	background:url(images/1.jpg) no-repeat scroll center center/cover;
+	height:100%; 
+	position:relative;
+	background-attachment: fixed;
+}
+#header {
+	background: #303030;
+	position: fixed;
+	width: 100%;
+	z-index: 99999999;
+}
+.header-text p {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+.header-text h1 {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 35px;
+	margin-bottom: 60px;
+	line-height: 45px;
+	margin-top: 0;
+}
+.header-text a {
+  background: #24211e;
+  color: #fff;
+  font-size: 16px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 6px;
+  text-transform: uppercase;
+}
+.header-text {
+  margin-top: 220px;
+}
+/*================
+    Logo area css
+==================*/
+.logo a {
+  color: #fff;
+}
+.logo a h2 {
+  font-size: 35px;
+  line-height: 33px;
+}
+.logo {
+  margin-bottom: 20px;
+}
+.logo, .menu {
+  margin-top: 30px;
+}
+/*================
+    menu area css
+==================*/
+.menu li {
+	display:inline-block;
+	padding-left:27px;
+}
+.menu li a {
+	color: white;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+.menu li a:hover{
+	color:#7b6c63;
+}
+.menu ul li.current a{
+	color:#7b6c63;
+}
+/*===================
+    Section area css
+=====================*/
+.section-title {
+	padding-top: 80px;
+}
+.section-title.text-center h2 {
+  color: #7b6c63;
+  text-transform: uppercase;
+  font-size: 35px;
+  position: relative;
+  margin: 0;
+}
+.section-title.text-center h2:before {
+  position: absolute;
+  content: "";
+  background: #7b6c63;
+  width: 77px;
+  height: 6px;
+  left: 47%;
+  bottom: -29px;
+}
+#section-text p {
+	font-size: 16px;
+	margin-bottom: 60px;
+	padding-top: 50px;
+}
+/*===================
+   05.About area css
+=====================*/
+.about-bg {
+  background:url(images/a1.png) no-repeat scroll center center/cover;
+}
+.about-text {
+	padding-left: 15%;
+}
+.about-text h2 {
+	color: #7b6c63;
+	text-transform: uppercase;
+	font-size: 24px;
+	padding-top: 60px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 20px;
+}
+.about-text p {
+  font-size: 14px;
+  padding-bottom: 35px;
+}
+.p-height {
+  padding-bottom: 20px;
+  display: block;
+  font-size: 15px;
+}
+.about-text a {
+	color: #000;
+	text-transform: uppercase;
+	border: 2px solid #000;
+	padding-bottom: 18px;
+	padding-top: 16px;
+	padding-left: 21px;
+	padding-right: 24px;
+	font-size: 16px;
+	border-radius: 6px;
+}
+.about-image img {
+  width: 100%;
+}
+/*======================
+   06.Service area css
+========================*/
+.service-area {
+	padding-bottom: 60px;
+	background: #fff;
+	padding-top: 12px;
+}
+.service-title h2 {
+	color: #7b6c63;
+	text-transform: uppercase;
+	font-size: 24px;
+	padding-top: 60px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 30px;
+}
+.service-title p {
+	margin-bottom: 0;
+	font-size: 15px;
+	padding-bottom: 55px;
+}
+.service-single i {
+  color: #7b6c63;
+  font-size: 30px;
+}
+.service-single h3 {
+  text-transform: uppercase;
+  font-size: 24px;
+  padding-bottom: 20px;
+  padding-top: 25px;
+  margin-bottom: 0;
+  margin-top: 0;
+  color: #363636;
+}
+.service-single p {
+  color: #555;
+  font-size: 15px;
+  padding: 0 36px;
+}
+/*======================
+   07.Skill area css
+========================*/
+.skill-area {
+	background: url(images/2.png) no-repeat scroll center center/cover;
+	position: relative;
+	padding-top: 80px;
+	padding-bottom: 91px;
+}
+.skill-area::before {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,.6);
+	width: 100%;
+	height: 100%;
+}
+.skill-title h2 {
+	margin: 0;
+	color: #fff;
+	text-transform: uppercase;
+	padding-bottom: 30px;
+}
+.single-skill img {
+	border: 4px solid #7b6c63;
+	border-radius: 100%;
+	padding: 3px;
+	display: inline-block;
+}
+.single-skill p {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 0;
+  padding-top: 31px;
+}
+.single-skill span {
+  color: #ffff;
+  font-size: 18px;
+  position: absolute;
+  top: 32%;
+  left: 42%;
+}
+.single-skill {
+  position: relative;
+  display: inline-block;
+  margin-left: 52px;
+}
+/*======================
+   08.Project area css
+========================*/
+.project-area {
+	padding-bottom: 91px;
+}
+.project-image img{
+	width:100%;
+}
+.project-area .col-md-3 {
+	padding-right: 0;
+	padding-left: 0;
+}
+.project-image-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  background: rgba(0,0,0,.7);
+  width: 100%;
+  height: 100%;
+  padding: 92px;
+  transform: scale(.01);
+  transition: .7s;
+}
+.project-image {
+  position: relative;
+  transition: .3s;
+}
+.project-image:hover .project-image-text {
+  opacity: 1;
+  transform: scale(1);
+}
+.project-image-text h4 {
+  font-size: 18px;
+  position: relative;
+  padding-bottom: 8px;
+}
+.project-image-text h4:before {
+  position: absolute;
+  bottom: -6px;
+  left: 39%;
+  content: "";
+  background: #fff;
+  width: 35px;
+  height: 4px;
+}
+.project-image-text p {
+  font-size: 14px;
+  padding-top: 6px;
+}
+.lastest-title-bg {
+  background: #1a1a1a;
+}
+.lastest-title {
+  padding-bottom: 100px;
+  padding-top: 100px;
+  color: #fff;
+}
+.lastest-title h3 {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-bottom: 17px;
+}
+.lastest-title p {
+  margin-bottom: 0;
+  padding-bottom: 15px;
+}
+.see-title a {
+  color: #000;
+  border: 2px solid #000;
+  padding-bottom: 19px;
+  padding-top: 19px;
+  padding-left: 30px;
+  padding-right: 32px;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+.see-title {
+  padding-top: 81px;
+}
+/*======================
+   09.Team area css
+========================*/
+.team-area {
+	background: #f5f5f5;
+	padding-bottom: 90px;
+}
+.single-team {
+  position: relative;
+  transition: .5s;
+}
+.single-team-image {
+  position: relative;
+  transition: .5s;
+}
+.single-team-image img {
+	width: 100%;
+}
+.single-text {
+  border: 3px solid #e4e4e4;
+  margin-top: 25px;
+}
+.single-text h3 {
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #000;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 25px;
+}
+.single-text p {
+  margin-bottom: 0;
+  padding-bottom: 25px;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+.team-icon {
+	position: absolute;
+	top: 0px;
+	left: 1px;
+	background: rgba(0,0,0,.6);
+	width: 100%;
+	height: 72%;
+	transform: scale(.1);
+	opacity: 0;
+	transition: .7s;
+}
+.single-team:hover .team-icon {
+  opacity: 1;
+  transform: scale(1);
+}
+.single-team.text-center:hover .single-text {
+	border: 3px solid #000;
+}
+.team-icon li {
+  display: inline-block;
+  padding-top: 42%;
+  margin-left: 7px;
+}
+.team-icon li a {
+  font-size: 20px;
+  color: #fff;
+  border-radius: 100%;
+  border: 3px solid #fff;
+  width: 50px;
+  height: 50px;
+  display: block;
+  padding-top: 7px;
+  transition.7s;
+}
+/*======================
+   10.Client area css
+========================*/
+.client-area {
+	background: #1a1a1a;
+}
+.client-title {
+  padding-bottom: 90px;
+  padding-top: 90px;
+  color: #fff;
+}
+.client-title h2 {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-bottom: 17px;
+  text-transform: uppercase;
+}
+.client-title p {
+	margin-bottom: 0;
+	padding-bottom: 15px;
+	padding-left: 25%;
+	padding-right: 25%;
+	color: #757575;
+}
+.client-title.text-center h3 {
+	margin-bottom: 0;
+	margin-top: 0;
+	color: #7b6c63;
+	padding-bottom: 13px;
+	padding-top: 13px;
+}
+/*======================
+   11.Blog area css
+========================*/
+.blog-image {
+	padding-bottom: 50px;
+	padding-right: 6px;
+}
+.blog-image img {
+  width: 100%;
+}
+.blog-text h5 {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 15px;
+  color: #555;
+}
+.blog-text h3 {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 24px;
+  padding-bottom: 23px;
+  padding-top: 24px;
+}
+.blog-text h3 a, .blog-text-2 h3 a{
+	color:#000;
+}
+.blog-text h3 a:hover, .blog-text-2 h3 a:hover{
+	color:#7b6c63;
+}
+.blog-text p {
+	margin-bottom: 0;
+	font-size: 15px;
+	color: #555;
+	letter-spacing: 1px;
+	line-height: 24px;
+}
+.blog-text {
+	padding-left: 36px;
+	padding-right: 35px;
+	position: relative;
+}
+.blog-text:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 1px;
+  height: 397px;
+  background: #999;
+}
+.blog-text:after {
+  position: absolute;
+  top: 0;
+  left: -10px;
+  content: "";
+  background: #999;
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+}
+/*======================
+   Blog-2 area css
+========================*/
+.blog-area {
+  padding-bottom: 80px;
+}
+.blog-image-2 {
+  padding-left: 36px;
+  padding-bottom: 50px;
+}
+.blog-image-2 img {
+  width: 100%;
+}
+.blog-text-2 {
+	position: relative;
+	padding-right: 6px;
+}
+.blog-text-2 h5 {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 15px;
+  color: #555;
+}
+.blog-text-2 h3 {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 24px;
+  padding-bottom: 23px;
+  padding-top: 24px;
+}
+.blog-text-2 p {
+	margin-bottom: 0;
+	font-size: 15px;
+	color: #555;
+	letter-spacing: 1px;
+	line-height: 24px;
+}
+.blog-text-2:before {
+  position: absolute;
+  top: 0;
+  right: -31px;
+  content: "";
+  width: 1px;
+  height: 351px;
+  background: #999;
+}
+.blog-text-2:after {
+  position: absolute;
+  top: 0;
+  right: -40px;
+  content: "";
+  background: #999;
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+}
+.post-title {
+	padding-left: 30px;
+	padding-top: 30px;
+}
+.post-title a {
+  background: #7b6c63;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 19px;
+  width: 74px;
+  height: 74px;
+  display: inline-block;
+  border: 7px solid #999;
+  padding-top: 12px;
+  line-height: 16px;
+}
+/*======================
+   12.Contact area css
+========================*/
+.contact-area {
+	background: #f5f5f5;
+	padding-bottom: 60px;
+}
+.contact-title h2 {
+	color: #7b6c63;
+	text-transform: uppercase;
+	font-size: 40px;
+	padding-top: 70px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 40px;
+}
+.contact-form input {
+  width: 48%;
+  border: none;
+  border-top: 2px solid #000;
+  padding-left: 10px;
+  font-size: 15px;
+  padding-top: 9px;
+  padding-bottom: 11px;
+  padding-right: 10px;
+  background: #f5f5f5;
+}
+#form-email{
+  margin-left: 15px;	
+}
+.contact-form #form-message {
+  width: 100%;
+  border: none;
+  height: 110px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 8px;
+  padding-right: 10px;
+  border-top: 2px solid #000;
+  border-bottom: 1px solid #999;
+  resize: none;
+  margin-bottom: 30px;
+  background: #f5f5f5;
+}
+.contact-form .submit {
+  width: 140px;
+  height: 50px;
+  text-transform: capitalize;
+  font-size: 17px;
+  border: 2px solid #000;
+  background: #fff;
+  background: #f5f5f5;
+}
+/*======================
+   13.Footer area css
+========================*/
+.footer-area {
+  background: #222;
+  padding-bottom:45px;
+}
+.footer-brand h2 {
+  font-size: 40px;
+  padding-top: 50px;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-bottom: 25px;
+}
+.footer-brand h2 a {
+  color: #7b6c63;
+}
+.footer-brand p {
+	color: #999;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: .5px;
+	margin-bottom:0px;
+}
+.brand-text {
+  padding-bottom: 20px;
+  display: block;
+}
+.single-footer h3 {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-bottom: 9px;
+}
+.single-footer h6 {
+	color: #444;
+	font-size: 12px;
+	padding-top: 20px;
+	display: block;
+	padding-bottom: 5px;
+	margin: 0;
+}
+.single-footer p {
+  color: #7c7c7c;
+  position:relative;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+.single-footer {
+  padding-top: 60px;
+}
+.single-footer p:before {
+  position: absolute;
+  bottom: -3px;
+  left: 0px;
+  content: "";
+  width: 252px;
+  height: 1px;
+  background: #777;
+}
+.footer-address {
+  padding-top: 60px;
+}
+.footer-address h3 {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.footer-address p {
+  color: #999;
+  margin-bottom: 0;
+  padding-top: 24px;
+  padding-bottom: 29px;
+  letter-spacing: 1px;
+  font-size: 13px;
+  line-height: 22px;
+}
+.footer-address li {
+  color: #999;
+  padding-bottom: 5px;
+  font-size: 14px;
+}
+.footer-address li a {
+  margin-right: 13px;
+  display: block;
+}
+.footer-address .fa.fa-inbox {
+  margin-right: 10px;
+}
+/*======================================
+   14.Copy Right Footer-text area css
+========================================*/
+.footer-text-area {
+  background: #1c1c1c;
+  color: #fff;
+}
+.footer-text.text-center {
+  padding-bottom: 20px;
+  padding-top: 21px;
+}
+.footer-text.text-center p {
+  margin-bottom: 0;
+  font-size: 15px;
+}
+/*======================
+   15.jQuery css area
+========================*/
+.weblift {
+  background: #7b6c63;
+  border-radius: 100%;
+  bottom: 100px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  position: fixed;
+  right: 20px;
+  text-align: center;
+  width: 40px;
+  opacity:0;
+  transition:.3s;
+}
+.weblift.lift{
+	opacity:1;
+}
